@@ -1,0 +1,96 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  /* background-color: #282c34; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.login-card {
+  margin-left: 50px;
+  background-color: #484f5e;
+  background-color: #ffffff;
+  width: 350px;
+  height: 500px;
+  border-radius: 5px;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Billabong';
+  border-style: solid;
+  border-width: thin;
+  border-color: #dbdbdb;
+
+}
+
+.insta-logo {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  width: 220px;
+  height:76px
+}
+.insta-login-img {
+  width: 347px;
+  height:488px
+}
+
+.login-page{
+  display: flex;
+  flex-direction: row;
+  /* align-items: center; */
+  /* justify-content: center; */
+}
+
+.login-input {
+  width: 250px;
+  height: 30px;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #dbdbdb;
+}
+
+.login-button {
+  margin-top: 10px;
+  width: 250px;
+  height: 30px;
+  border-style: none;
+  border-radius: 8px;
+  color: white;
+  background-color: #4cb5f9;
+}
+
+.login-text {
+  color: #79795e;
+  font-size: 20px;
+}
